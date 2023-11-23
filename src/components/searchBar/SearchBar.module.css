@@ -1,0 +1,34 @@
+.searchBar {
+  min-width: 73rem;
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.searchBar input {
+  width: 100%;
+  height: 6.9rem;
+  border: none;
+  border-radius: 1.5rem;
+  padding-left: 8rem;
+}
+
+.searchBar button {
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  transform: translateY(-50%);
+  height: calc(100% - 1rem);
+  width: 10.6rem;
+  border-radius: 1rem;
+  border: none;
+  text-transform: capitalize;
+}
+
+.searchBar img {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  transform: translateY(-50%);
+  margin-right: 30px;
+}

@@ -1,0 +1,6 @@
+.titleBar {
+  min-width: 73rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3.6rem;
+}
