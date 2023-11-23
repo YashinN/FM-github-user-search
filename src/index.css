@@ -1,0 +1,26 @@
+:root {
+  /* Colours */
+  --accent-primary: #0079ff;
+  --bg-primary: #fff;
+  --bg-secondary: #f6f8ff;
+
+  /* Typography Colours */
+
+  --text-main: #2b3442;
+  --text-secondary: #4b6a9b;
+  --text-light: #697c9a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: var(--bg-secondary);
+}
